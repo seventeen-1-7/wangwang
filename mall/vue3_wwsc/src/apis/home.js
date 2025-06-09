@@ -9,14 +9,7 @@ export function getBannerAPI(distributionSite='1'){
     return http.get('/home/banner',{params:{distributionSite}});
 }
 
-/**
- * @description: 获取新鲜好物
- * @param {*}
- * @return {*}
- */
-export const getNewAPI = () => {
-    return http.get('/home/new')
-}
+
 
 /**
  * @description: 获取人气推荐
