@@ -5,7 +5,9 @@ import http from "@/utils/http";
  * @param distributionSite='1' 首页 '2'表示分类页面
  * @return {*}
  */
+HEAD
 export function getBannerAPI(distributionSite='1'){
+
     return http.get('/home/banner',{params:{distributionSite}});
 }
 
