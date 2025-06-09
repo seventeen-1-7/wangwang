@@ -1,14 +1,7 @@
 import http from "@/utils/http";
 
 
-/**
- * @description: 获取新鲜好物
- * @param {*}
- * @return {*}
- */
-export const getNewAPI = () => {
-    return http.get('/home/new')
-}
+
 
 /**
  * @description: 获取人气推荐
